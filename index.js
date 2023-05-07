@@ -19,6 +19,8 @@ bot.command('start', ctx => {
     )
 })
 
+bot.telegram.sendMessage(process.env.IDUSER,"tes");
+
 bot.action('rumahtangga', (ctx) => {
     ctx.reply('Hotline kekerasan rumah tangga');
 });
